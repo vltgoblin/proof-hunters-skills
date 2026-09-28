@@ -20,7 +20,7 @@ Ask your agent:
 
 To mine, tell it which dedicated CLI wallet to use, the maximum gas cost per transaction in wei, the maximum number of calls, total gas budget, and CPU thread/attempt limits. Mining authorization includes an expired-seed refresh, which spends gas without minting an NFT. The skill asks for missing spending limits before proceeding.
 
-The skill uses verified **v0.2.3** release bundles. It supports assigned HUNTER mining power and automatic expired-seed refresh. A fresh installation still needs the CLI, Python 3.9+, a dedicated encrypted wallet, and ETH for gas on the chosen network. Testnet source profiles are disabled; do not change them to bypass checks.
+The skill uses verified **v0.3.0** release bundles (v0.2.3 cannot mine since the 28 Sep 2026 upgrade). Mining needs 1M HUNTER tokens staked to the CLI wallet in the app (app.proofhunter.fun/app/mine); the CLI checks the stake and never stakes itself. A fresh installation still needs the CLI, Python 3.9+, a dedicated encrypted wallet, and ETH for gas on the chosen network. Testnet source profiles are disabled; do not change them to bypass checks.
 
 ## What this provides
 
